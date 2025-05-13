@@ -141,7 +141,7 @@ function run_patient_batch()
     
     config.PT_ID_LIST         = {'V0053'};
    
-    config.BASE_DIR           = 'C:\Users\abg28\ANON_DICOM_DATA\CURRENT\ANON_TRISTAN\anon-processing';
+    config.BASE_DIR           = 'C:\Users\...\ANON_DICOM_DATA\CURRENT\ANON_PROS\anon-processing';
     
     config.OUT_DIR            = fullfile(config.BASE_DIR, 'results');
 
