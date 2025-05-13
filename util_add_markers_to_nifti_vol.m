@@ -6,10 +6,10 @@ function nifti_file_out = util_add_markers_to_nifti_vol(nifti_file_in)
 
     if nargin < 1
         
-        %nifti_file_in = 'C:\Users\abg28\ANON_DICOM_DATA\CURRENT\ANON_TRISTAN\P0000\Segmentations\7094_950_ADC_10_6_mm_s_Supine.nii.gz';
-        %nifti_file_in = 'C:\Users\abg28\ANON_DICOM_DATA\CURRENT\ANON_TRISTAN\P0000\Segmentations\7094_1751_Water_DCE_Supine_LastPhase.nii.gz';
-        %nifti_file_in = 'C:\Users\abg28\ANON_DICOM_DATA\CURRENT\ANON_TRISTAN\P0000\Segmentations\7094_2151_Water_DCE_Prone_FirstPhase.nii.gz';
-        nifti_file_in = 'C:\Users\abg28\ANON_DICOM_DATA\CURRENT\ANON_TRISTAN\P0000\Segmentations\7094_2050_ADC_10_6_mm_s_Prone.nii.gz';
+        %nifti_file_in = 'C:\Users\...\ANON_DICOM_DATA\CURRENT\ANON_PROS\P0000\Segmentations\7094_950_ADC_10_6_mm_s_Supine.nii.gz';
+        %nifti_file_in = 'C:\Users\...\ANON_DICOM_DATA\CURRENT\ANON_PROS\P0000\Segmentations\7094_1751_Water_DCE_Supine_LastPhase.nii.gz';
+        %nifti_file_in = 'C:\Users\...\ANON_DICOM_DATA\CURRENT\ANON_PROS\P0000\Segmentations\7094_2151_Water_DCE_Prone_FirstPhase.nii.gz';
+        nifti_file_in = 'C:\Users\...\ANON_DICOM_DATA\CURRENT\ANON_PROS\P0000\Segmentations\7094_2050_ADC_10_6_mm_s_Prone.nii.gz';
         
     end
     

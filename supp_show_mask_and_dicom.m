@@ -32,7 +32,7 @@ function supp_show_mask_and_dicom(mask, V)
         %{
         if any(roi(:))
             pause();
-            out_dir = fullfile('C:\Users\abg28\ANON_DICOM_DATA\CURRENT\ANON_TRISTAN\qc-processing\temp', ts);
+            out_dir = fullfile('C:\Users\...\ANON_DICOM_DATA\CURRENT\ANON_PROS\qc-processing\temp', ts);
             if ~exist(out_dir, 'dir'), mkdir(out_dir); end
             saveas(hf, fullfile(out_dir, ['Image-' num2str(s, '%03d') '.png']));
         end

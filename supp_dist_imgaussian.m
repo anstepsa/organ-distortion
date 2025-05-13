@@ -1,5 +1,5 @@
 function I=supp_dist_imgaussian(I,sigma,siz)
-% abg modified...
+% modified...
 % *** For a 3-D input volume, only smooths in 'x' and 'y' (not 'z') ***
 %
 % IMGAUSSIAN filters an 1D, 2D or 3D image with an gaussian filter.
@@ -44,7 +44,7 @@ elseif(ndims(I)==3)
     %I=imfilter(imfilter(imfilter(I,Hx,'replicate'),Hy,'replicate'),Hz,'replicate');
     
     % ----- JUST SMOOTH IN 'X' AND 'Y' ------
-    I=imfilter(imfilter(I,Hx,'replicate'),Hy,'replicate');  % <--- ABG
+    I=imfilter(imfilter(I,Hx,'replicate'),Hy,'replicate');  % <--- 
     % ---------------------------------------
     
 else

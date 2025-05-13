@@ -3,13 +3,13 @@
 
 function stats_log_regression_air()
 
-    config.RESULTS_DIR = 'C:\Users\abg28\ANON_DICOM_DATA\CURRENT\ANON_TRISTAN';
+    config.RESULTS_DIR = 'C:\Users\...\ANON_DICOM_DATA\CURRENT\ANON_PROS';
     
     config.DIST_RESULTS_XLS = 'Distortion-Results-ALL-With-Graphs-With-Exam-Num.xlsx';
 
     config.LOADING_RESULTS_XLS = 'RECTAL LOADING_Prone Imaging patients_TB_anon.xlsx';
     
-    config.PLOT_OUT_DIR = 'C:\Users\abg28\ANON_DICOM_DATA\CURRENT\ANON_TRISTAN\anon-processing\results\stats';
+    config.PLOT_OUT_DIR = 'C:\Users\...\ANON_DICOM_DATA\CURRENT\ANON_PROS\anon-processing\results\stats';
    
     config.THRESHOLD_SCORES = 4; %3:4;
 

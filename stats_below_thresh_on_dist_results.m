@@ -4,13 +4,13 @@ function stats_below_thresh_on_dist_results()
 
     config.SAVE_FIGS = true;%false;
 
-    addpath('C:\Users\abg28\my_data\UNI_SOURCE\Statistics\swtest');
+    addpath('C:\Users\...\my_data\UNI_SOURCE\Statistics\swtest');
 
-    config.RESULTS_DIR = 'C:\Users\abg28\ANON_DICOM_DATA\CURRENT\ANON_TRISTAN\anon-processing\results';
+    config.RESULTS_DIR = 'C:\Users\...\ANON_DICOM_DATA\CURRENT\ANON_PROS\anon-processing\results';
     
     config.RESULTS_XLS = 'Distortion-Results-ALL-With-Graphs-8.xlsx';
     
-    config.PLOT_OUT_BASE = 'C:\Users\abg28\ANON_DICOM_DATA\CURRENT\ANON_TRISTAN\anon-processing\results\stats-n-33';
+    config.PLOT_OUT_BASE = 'C:\Users\...\ANON_DICOM_DATA\CURRENT\ANON_PROS\anon-processing\results\stats-n-33';
     
     config.AIR_THRESHOLD_LEVELS = [NaN, NaN, 4.0]; %[   2.0,     3.0,     5.0]; %4.0];   % [cm^3] within {air_distance}
     

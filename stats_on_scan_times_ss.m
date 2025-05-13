@@ -3,13 +3,13 @@
 function stats_on_scan_times_ss()
 % Produce summary statistics on scan times for prostate supine vs. prone study...
 
-    OUT_DIR           = 'C:\Users\abg28\my_data\UNI_RESEARCH_PROJECTS\ANON_TRISTAN';
+    OUT_DIR           = 'C:\Users\...\my_data\UNI_RESEARCH_PROJECTS\ANON_PROS';
 
     OUT_FILE_NAME     = 'Prostate-Scan-Times.xlsx';
 
     T_IN = readtable(fullfile(OUT_DIR, OUT_FILE_NAME));
 
-    T_CHECK = readtable("C:\Users\abg28\ANON_DICOM_DATA\CURRENT\ANON_TRISTAN\Distortion-Results-ALL-With-Graphs-With-Exam-Num.xlsx");
+    T_CHECK = readtable("C:\Users\...\ANON_DICOM_DATA\CURRENT\ANON_PROS\Distortion-Results-ALL-With-Graphs-With-Exam-Num.xlsx");
 
     % -------------------------------------------------------------------------------------------------
 

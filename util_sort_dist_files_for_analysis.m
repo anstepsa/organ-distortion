@@ -15,9 +15,9 @@ function util_sort_dist_files_for_analysis()
 
     config.START_PT_ID_AT = 52;  % 0  % 2  % 6  % The last 'Vxxxx' number allocated so far...
 
-    config.RAW_DATA_PATH = 'C:\Users\abg28\ANON_DICOM_DATA\CURRENT\ANON_TRISTAN\raw-data\8790';
+    config.RAW_DATA_PATH = 'C:\Users\...\ANON_DICOM_DATA\CURRENT\ANON_PROS\raw-data\8790';
 
-    config.BASE_WRITE_PATH = 'C:\Users\abg28\ANON_DICOM_DATA\CURRENT\ANON_TRISTAN\temp';
+    config.BASE_WRITE_PATH = 'C:\Users\...\ANON_DICOM_DATA\CURRENT\ANON_PROS\temp';
     
     config.PT_KEY_FILE = fullfile(config.BASE_WRITE_PATH, 'PatientKey.txt');
     

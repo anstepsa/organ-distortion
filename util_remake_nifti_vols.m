@@ -5,9 +5,9 @@ function util_remake_nifti_vols()
     pt     = 'P0001';
     new_pt = 'V0001';
     
-    in_nifti_dir  = fullfile('C:\Users\abg28\ANON_DICOM_DATA\CURRENT\ANON_TRISTAN', pt,     'Segmentations');
+    in_nifti_dir  = fullfile('C:\Users\...\ANON_DICOM_DATA\CURRENT\ANON_PROS', pt,     'Segmentations');
     
-    out_nifti_dir = fullfile('C:\Users\abg28\ANON_DICOM_DATA\CURRENT\ANON_TRISTAN', new_pt, 'Segmentations');
+    out_nifti_dir = fullfile('C:\Users\...\ANON_DICOM_DATA\CURRENT\ANON_PROS', new_pt, 'Segmentations');
 
     if ~exist(out_nifti_dir, 'dir'), mkdir(out_nifti_dir); end
     

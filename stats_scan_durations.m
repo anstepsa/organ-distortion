@@ -4,9 +4,9 @@ function stats_scan_durations()
 % Compile a spreadsheet of all the scan durations for the prostate supine
 % vs. prone study...
 
-    ALL_RAW_DICOM_DIR = 'C:\Users\abg28\ANON_DICOM_DATA\CURRENT\ANON_TRISTAN\all-raw-data';
+    ALL_RAW_DICOM_DIR = 'C:\Users\...\ANON_DICOM_DATA\CURRENT\ANON_PROS\all-raw-data';
 
-    OUT_DIR           = 'C:\Users\abg28\my_data\UNI_RESEARCH_PROJECTS\ANON_TRISTAN';
+    OUT_DIR           = 'C:\Users\...\my_data\UNI_RESEARCH_PROJECTS\ANON_PROS';
 
     OUT_FILE_NAME     = 'Prostate-Scan-Times.xlsx';
 

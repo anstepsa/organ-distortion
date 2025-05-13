@@ -6,16 +6,16 @@ function nifti_file_out = util_make_vp_nifti_vols(nifti_dir_in, dicom_dir_in)
 
     if nargin < 1
         
-        nifti_dir_in = 'C:\Users\abg28\ANON_DICOM_DATA\CURRENT\ANON_TRISTAN\P0001\Segmentations';
-        dicom_dir_in = 'C:\Users\abg28\ANON_DICOM_DATA\CURRENT\ANON_TRISTAN\P0001';
-        %nifti_file_in = 'C:\Users\abg28\ANON_DICOM_DATA\CURRENT\ANON_TRISTAN\P0001\Segmentations\7094_950_ADC_10_6_mm_s_Supine.nii.gz';
-        %nifti_file_in = 'C:\Users\abg28\ANON_DICOM_DATA\CURRENT\ANON_TRISTAN\P0001\Segmentations\7094_1751_Water_DCE_Supine_LastPhase.nii.gz';
-        %nifti_file_in = 'C:\Users\abg28\ANON_DICOM_DATA\CURRENT\ANON_TRISTAN\P0001\Segmentations\7094_2151_Water_DCE_Prone_FirstPhase.nii.gz';
-        %nifti_file_in = 'C:\Users\abg28\ANON_DICOM_DATA\CURRENT\ANON_TRISTAN\P0001\Segmentations\7094_2050_ADC_10_6_mm_s_Prone.nii.gz';
+        nifti_dir_in = 'C:\Users\...\ANON_DICOM_DATA\CURRENT\ANON_PROS\P0001\Segmentations';
+        dicom_dir_in = 'C:\Users\...\ANON_DICOM_DATA\CURRENT\ANON_PROS\P0001';
+        %nifti_file_in = 'C:\Users\...\ANON_DICOM_DATA\CURRENT\ANON_PROS\P0001\Segmentations\7094_950_ADC_10_6_mm_s_Supine.nii.gz';
+        %nifti_file_in = 'C:\Users\...\ANON_DICOM_DATA\CURRENT\ANON_PROS\P0001\Segmentations\7094_1751_Water_DCE_Supine_LastPhase.nii.gz';
+        %nifti_file_in = 'C:\Users\...\ANON_DICOM_DATA\CURRENT\ANON_PROS\P0001\Segmentations\7094_2151_Water_DCE_Prone_FirstPhase.nii.gz';
+        %nifti_file_in = 'C:\Users\...\ANON_DICOM_DATA\CURRENT\ANON_PROS\P0001\Segmentations\7094_2050_ADC_10_6_mm_s_Prone.nii.gz';
         
     end
     
-    nifti_dir_out = 'C:\Users\abg28\ANON_DICOM_DATA\CURRENT\ANON_TRISTAN\P0VP3\Segmentations';
+    nifti_dir_out = 'C:\Users\...\ANON_DICOM_DATA\CURRENT\ANON_PROS\P0VP3\Segmentations';
     
     if ~exist(nifti_dir_out, 'dir'), mkdir(nifti_dir_out); end
     

@@ -41,7 +41,7 @@ function [Vc, Rc, ok] = supp_dist_crop_volume(V, R, margin)
 
     Rc = imref3d(size(Vc), xWorldLimits, yWorldLimits, zWorldLimits);
     
-    disp('Volume cropped!');  % <abg> 22-05-2024
+    disp('Volume cropped!');  %  22-05-2024
     
     ok = 1;
 

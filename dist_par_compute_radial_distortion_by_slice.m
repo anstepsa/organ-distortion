@@ -6,7 +6,7 @@
 function [d, sem_d, d_res, sem_d_res, d_array, d_array_res] = ...
                dist_par_compute_radial_distortion_by_slice(config, V1, V1C, V2, R, Ts)
 
-% WORKING NOW! - Gives same results as non-parfor   abg 11-03-2019
+% WORKING NOW! - Gives same results as non-parfor    11-03-2019
             
     ts = datestr(datetime('now'), 'yyyy-mm-dd-HH-MM-SS'); %#ok<NASGU,DATST>
             
@@ -52,7 +52,7 @@ function [d, sem_d, d_res, sem_d_res, d_array, d_array_res] = ...
             imshow(C);
             drawnow();
             pause(0.5);
-            %out_dir = fullfile('C:\Users\abg28\ANON_DICOM_DATA\CURRENT\ANON_TRISTAN\qc-processing\temp', ts);
+            %out_dir = fullfile('C:\Users\...\ANON_DICOM_DATA\CURRENT\ANON_PROS\qc-processing\temp', ts);
             %if ~exist(out_dir, 'dir'), mkdir(out_dir); end
             %saveas(hf0, fullfile(out_dir, ['Fused-' num2str(slice, '%03d') '.png']));
         end
